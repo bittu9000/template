@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #5e5902;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background: #2c2c3e;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.sidebar h2 {
+  margin-bottom: 5px;
+}
+
+.sidebar p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.info {
+  list-style: none;
+  font-size: 0.85em;
+  margin-bottom: 15px;
+}
+
+.languages span {
+  display: inline-block;
+  background: #444;
+  padding: 4px 8px;
+  margin: 3px;
+  border-radius: 10px;
+  font-size: 0.8em;
+}
+
+.skills label {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.skills progress {
+  width: 100%;
+  height: 8px;
+  margin-bottom: 10px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.hero button {
+  background: #f0b400;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.stats div {
+  padding: 10px;
+}
+
+.stats strong {
+  font-size: 1.5em;
+  display: block;
+}
+
+.services h2 {
+  margin-bottom: 15px;
+}
+
+.service-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: #2f2f44;
+  padding: 15px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a i {
+  margin-right: 8px;
+  font-size: 1.2em;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper > footer {
+  margin-top: auto; /* Pushes footer to the bottom */
+  background: #2c2c3e;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper > footer {
+  margin-top: auto; /* Pushes footer to the bottom */
+  background: #2c2c3e;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+
+.social-link {
+  color: red;             /* Make the text red */
+  text-decoration: none;  /* Optional: removes underline */
+  font-weight: bold;      /* Optional: makes it stand out */
+}
+
+.social-link:hover {
+  color: orange;          /* Optional: change color on hover */
+}
+
+
